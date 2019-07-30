@@ -1,0 +1,26 @@
+{
+  "listings": [
+    {
+      "address": "23 Cape Fear Trail",
+      "sqft": "4555",
+      "agent": "Jennifer V Van Ness",
+      "price": 2895000,
+      "bed": 4,
+      "bath": 4.5,
+      "desc": "Sophisticated & immaculate waterfront home designed by architect Jay DeChesere, built by Telesis, features 4 bedrooms, 4 1/2 half baths with amazing views of the sunset over the Cape Fear River. Ideally located close to everything yet, exceptionally private. Watch the boats go by from the comfort of one of the expansive porches. This spacious home includes a private beach access, gourmet kitchen with bamboo cabinets, Subzero refrigerator & wine cooler, Viking cook top, double wall ovens and dishwasher. Two master suites each offering private living space, en suite baths with stainless tubs, honed slate counter tops, slate floors. 2 guest bedrooms also have en suite baths with honed slate counter tops, slate floors and surround. TV room features custom bamboo cabinets.",
+      "link": "https://www.wendywilmotproperties.com/mls1/detail.cfm?mlsnumber=100068357&mlssearch=Residential&wsid=1",
+      "img": "https://www.google.com/photos/about/static/images/google.svg"
+    },
+    {
+      "address": "128 Edward Teach Wynd",
+      "sqft": "1701",
+      "agent": "WWP John Munroe Team",
+      "price": 675000,
+      "bed": 4,
+      "bath": 4,
+      "desc": "Beautiful home, tucked away in Bald Head Island's serene forest. Located close to the market and shopping. This four bedroom, four bath home boasts a large kitchen, screened porch and oversized crofter- perfect for guests. BHI Lifestyle and Shoals memberships are available for separate purchase.",
+      "link": "https://www.wendywilmotproperties.com/mls1/detail.cfm?mlsnumber=100122055&mlssearch=Residential&wsid=1"
+    }
+  ]
+
+}
