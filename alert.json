@@ -1,5 +1,8 @@
 {
   "alert": true,
+  "hasImage": true,
   "alert-title": "test-title",
   "alert-message": "this is a test alert message",
+  "alert-img": "google.com/img",
+  "alert-link": "https://wendywilmotproperties.com/"
 }
