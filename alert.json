@@ -1,8 +1,8 @@
 {
-  "alert": true,
-  "hasImage": true,
-  "alert-title": "test-title",
-  "alert-message": "this is a test alert message",
-  "alert-img": "google.com/img",
-  "alert-link": "https://wendywilmotproperties.com/"
-}
+	  "alert": true,
+	  "hasImage": true,
+	  "alert-title": "Register Now For WWP's BHI Property Owner Giveaway",
+	  "alert-message": "To thank all our Island friends and neighbors for their support over the past 15 years, WWP is sponsoring a giveaway for BHI property owners each month July through November.",
+	  "alert-img": "https://promosimple.com/uploads/images/1f1bf5b5-d8df-464c-ada4-f89086e3a03c",
+	  "alert-link": "https://wendywilmotproperties.com/bhi-owners-only-giveaway/"
+	}
