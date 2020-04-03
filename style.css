@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #F5F5F5;
+	font-family: sans-serif;
+	height: 100%;
+	width: 100%;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.paint {
+  padding-top: 2px;
+}
+
+/* CANVAS STYLING
+===================*/
+
+canvas {
+	background-image: url(fulladvert.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	cursor: crosshair;
+  display: block;
+margin: 0 auto 0;
+}
+
+.controls {
+  background-color: rgba(256,256,256,.8);
+  padding: 10px;
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+}
