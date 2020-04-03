@@ -4,6 +4,12 @@ var context = $canvas[0].getContext("2d");
 var lastEvent;
 var mouseDown = false;
 
+window.onload = function() {
+  var c = document.getElementById("mainCanvas");
+  var ctx = c.getContext("2d");
+  var img = document.getElementById("advert");
+  ctx.drawImage(img, 0, 0);
+}
 // When clicking on colours items
 $(".controls").on("click", "li", function () {
     //  Deselect aibling elements
@@ -57,7 +63,7 @@ $canvas.mousedown(function (e) {
         context.moveTo(lastEvent.offsetX, lastEvent.offsetY);
         context.lineTo(e.offsetX, e.offsetY);
         context.strokeStyle = colour;
-        context.lineWidth = 2;
+        context.lineWidth = 4;
         context.lineCap = 'round';
         context.stroke();
         lastEvent = e;
@@ -68,6 +74,7 @@ $canvas.mousedown(function (e) {
     $canvas.mouseup();
 });
 
+
 // Clear the canvas when button is clicked
 function clear_canvas_width() {
     var s = document.getElementById("mainCanvas");
@@ -75,3 +82,8 @@ function clear_canvas_width() {
     s.width = 10;
     s.width = w;
 }
+var canvas = document.getElementById("mainCanvas");
+download_img = function(el) {
+  var image = canvas.toDataURL("image/jpg");
+  el.href = image;
+};
