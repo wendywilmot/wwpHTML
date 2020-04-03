@@ -1,3 +1,11 @@
+@media only screen and (max-device-width: 1030px) {
+  .content {
+    display: none;
+  }
+  .error {
+    display: block !important;
+  }
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -19,10 +27,16 @@ h2 {
 .paint {
   padding-top: 2px;
 }
-
-/* CANVAS STYLING
-===================*/
-
+a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #35afa8;
+}
+a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: #35afa8;
+}
 canvas {
   background-position: center;
   background-repeat: no-repeat;
@@ -33,9 +47,12 @@ margin: 0 auto 0;
 }
 
 .controls {
-  background-color: rgba(256,256,256,.8);
+  background-color: rgba(256,256,256,.6);
   padding: 10px;
   position: fixed;
   bottom: 15px;
   left: 15px;
+}
+.controls:hover {
+  background-color: rgba(256,256,256,1);
 }
