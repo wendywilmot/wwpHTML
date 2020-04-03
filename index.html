@@ -6,11 +6,12 @@
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 </head>
 <body>
+<img id="advert" width="220" height="277" style="display:none;" src="fulladvert.jpg">
 <canvas width="1500px" height="900px" id="mainCanvas"></canvas>
 <div class="controls">
-  <p>Use arrow keys to move around. <br>Zoom in and out to see full picture</p>
-	<a id="clear" onclick='clear_canvas_width()'>Clear Drawing</a><br>
-  <a>Download</a>
+  <p>Use arrow keys to move around. <br>Zoom in and out to see full picture.</p>
+	<a id="clear" href="" onclick='clear_canvas_width()'>Clear Drawing</a><br>
+  <a id="download" download="submission.jpg"  onclick="download_img(this);">Download to submit</a>
 </div>
 <script src="https://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="html2canvas.min.js" type="text/javascript" charset="utf-8"></script>
