@@ -6,15 +6,19 @@
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<img id="advert" width="220" height="277" style="display:none;" src="fulladvert.jpg">
-<canvas width="1500px" height="900px" id="mainCanvas"></canvas>
+<p class="error" style="display:none; padding:20px;">This website requires you to use a laptop or desktop computer with HTML5 Canvas and Javascript enabled.</p>
+  <div class="content">
+<img id="advert" width="1500" height="900" style="display:none;" src="fulladvert.jpg">
+<canvas width="1800px" height="1088px" id="mainCanvas"></canvas>
 <div class="controls">
-  <p>Use arrow keys to move around. <br>Zoom in and out to see full picture.</p>
-	<a id="clear" href="" onclick='clear_canvas_width()'>Clear Drawing</a><br>
-  <a id="download" download="submission.jpg"  onclick="download_img(this);">Download to submit</a>
+  <h3>Instructions:</h3>
+  <p>Use arrow keys to move around. Zoom in and out to see full picture. Click down to begin drawing.</p>
+  <p>To submit the puzzle click download and email the image to a WWP agent</p>
+  <a id="clear" href="" onclick='clear_canvas_width()'>Clear Drawing</a><br>
+  <a id="download" href="" download="submission.jpg"  onclick="download_img(this);">Download</a>
+</div>
 </div>
 <script src="https://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="html2canvas.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="app.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
